@@ -30,7 +30,7 @@ const HomePage = () => {
         <div className="container-custom mx-auto py-16 md:py-24 px-4">
           <div className="max-w-3xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight animate-fade-in">
-              Shop with Ease and Confidence
+              Shop with Ease and Confidence v5
             </h1>
             <p className="mt-4 text-lg md:text-xl text-white/90 animate-slide-up">
               Discover premium products with fast shipping and a seamless shopping experience.
