@@ -60,7 +60,7 @@ jobs:
       - name: Update image tag in manifest
         if: github.event_name == 'push'
         run: |
-          sed -i "s|image: .*/mern-frontend:.*|image: ${{ vars.DOCKERHUB_USERNAME }}/mern-frontend:${{ github.sha }}|" k8s/frontend-deployment.yaml
+          sed -i "s|image: .*/mern-frontend:.*|image: ${{ vars.DOCKERHUB_USERNAME }}/mern-frontend:${{ github.sha }}|" k8s/frontend-deployment.yml
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if git diff --quiet; then
