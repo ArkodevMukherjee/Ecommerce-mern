@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mern-backend
-          image: arkodevmukherjee1234/mern-backend:latest
+          image: arkodevmukherjee1234/mern-backend:d98ba12e8a8dd282197eb68621d8f22cbe9ad5c7
           ports:
             - containerPort: 5000
           env:
