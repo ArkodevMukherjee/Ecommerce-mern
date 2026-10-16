@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: mern-frontend
-          image: arkodevmukherjee1234/mern-frontend:8bf7c176cc2293ec553862b8bcdb81410963b8af
+          image: arkodevmukherjee1234/mern-frontend:704ab8dc20ffb90cc359498a294bdeb8b72245e4
           ports:
             - containerPort: 80
